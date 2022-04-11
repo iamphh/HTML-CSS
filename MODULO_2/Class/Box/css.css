@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(43, 43, 43);
+    color: rgb(255, 255, 255);
+}
+h1{
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    margin: auto;
+
+    /*Simplificando*/
+    border: 10px, solid, green;
+    padding: 10px, 10px, 10px, 10px;
+    margin: 10px, 10px, 10px, 10px;
+    outline: 10px;
+}
+hr{
+    background-color: rgb(39, 39, 39);
+}
+a{
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+}

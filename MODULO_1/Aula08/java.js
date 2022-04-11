@@ -1,0 +1,4 @@
+function funct(){
+    alert('Iamph!')
+}
+    

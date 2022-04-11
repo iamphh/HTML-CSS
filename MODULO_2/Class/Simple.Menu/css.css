@@ -1,0 +1,38 @@
+div{
+    display: inline-block;
+    color: wheat;
+    background-color: black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid wheat;
+    padding: 15px;
+}
+body{
+    background-color: rgb(29, 29, 29);
+}
+div:hover{
+    background-color: rgb(168, 207, 194);
+}
+h1{
+    color: wheat;
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: center;
+}
+p:hover{
+    background-color: red;
+}
+div > p{
+    display: none;
+}
+div:hover > p{
+    display: block;
+    color: white;
+    background-color: rgb(43, 43, 43);
+    width: 100px;
+    text-align: center;
+    align-items: center;
+}

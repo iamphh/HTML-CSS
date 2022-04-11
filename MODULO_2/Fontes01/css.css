@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(46, 46, 46);
+    color: white;
+    font: normal 18px Times;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-indent: 10px;
+    font-weight: lighter;
+}
+h2{
+    text-align: justify;
+}
+h1#first{
+    text-align: center;
+    background-color: burlywood;
+    border-radius: 10px;
+    height: 45px
+
+
+}
+/* ID -> #
+   CLASS -> . 
+*/

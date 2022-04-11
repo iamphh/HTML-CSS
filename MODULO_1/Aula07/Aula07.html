@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images and Video</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <!--
+        Imagens DInamicas
+    -->
+    <h1>Dinamic Imagens</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="images/fotop.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="images/fotom.png" type="image/png">
+        <img src="IMAGES/fotog.png" alt="Photop">
+        <hr>
+    </picture>
+    <!--
+        Audios
+    -->
+    <h1>Audios</h1>
+    <audio src="MEDIA/Rooster - Telecasted.mp3" controls></audio>
+    <audio preload="metadata" controls>
+        <source src="MEDIA/Rooster - Telecasted.mp3" type="audio/mpeg">
+    </audio>
+    <p>Download your file - <a href="MEDIA/Rooster - Telecasted.mp3" download="">Click here</a></p>
+    <hr>
+    <!--
+        Videos
+    -->
+    <h1>Internal Video</h1>
+    <p>Our video here</p>
+
+
+    <video width="350px" controls autoplay loop>
+        <source src="VIDEO/video.mp4" type="video/mp4">
+        <source src="VIDEO/video.mp4" type="video/mp4">
+        <source src="VIDEO/video.mp4" type="video/mp4">
+        <source src="VIDEO/video.mp4" type="video/mp4">
+    </video>
+    <hr>
+    <h1>External Videos</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/bYrPgfKRIl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+
+</html>

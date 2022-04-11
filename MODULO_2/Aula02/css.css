@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+p{
+    text-align: justify;
+}
+body{
+    background-color: rgb(255, 236, 236);
+    color: white;
+}
+h1{
+    text-align: center;
+    width: 500px;
+    height: 50px;
+    border-radius: 15px;
+}
+main{
+    width: 500px;
+    height: 650px;
+    margin: auto;
+    background-color: rgb(29, 29, 29);
+    border-radius: 15px;
+    box-shadow: 5px, 5px, 25px, rgb(0, 0, 0);
+    padding: 10px;
+}
+iframe{
+    width: 750px; 
+    margin-left: auto;
+    margin-right: auto;
+}

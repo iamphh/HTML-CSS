@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(31, 31, 31);
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(180, 123, 233);
+}
+h2{
+    color: rgb(54, 152, 238);
+    text-align: center;
+}
+p{
+    color: aliceblue;
+    text-align: end;
+}
+
+.text{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+div{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+img#css{
+    width: 500px;
+}
