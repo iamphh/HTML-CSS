@@ -1,11 +1,18 @@
 body{
-    height: 100vh;
+    /*height: 100vh;
     background-color: rgb(36, 36, 36);
     background-image: url(images/montain.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    */
     /*Cover, Contain and Auto*/
+    /*Fixed Background*/
+    background-attachment: fixed;
+
+    /*Color > Image > Position > Repeat > [Size] > Attachment*/
+    background: black url('images/montain.jpg') center center no-repeat fixed;
+    background-size: cover;
 }
 main{
     width: 400px;
@@ -14,6 +21,7 @@ main{
     margin: auto;
     border-radius: 10px;
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.514);
+
 }
 h1{
     text-align: center;
