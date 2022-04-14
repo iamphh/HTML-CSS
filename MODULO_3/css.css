@@ -18,3 +18,31 @@ div#q2{
 div#q3{
     background-image: url('images/pattern001.png');
 }
+div#q4{
+    background-image: url('http://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+    background-size: 150px;
+    background-repeat: no-repeat;
+    /*Repeat, no-repeat, repeat-y, repeat-x*/
+    margin: auto;
+}
+
+/*Position Backgrounds*/
+div.bloco{
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    background-image: url(images/wallpaper003.jpg);
+}
+div#q5{
+    background-position: left top;
+}
+div#q6{
+    background-position: left center;
+}
+div#q7{
+    background-position: right bottom;
+}
+div#q8{
+    background-position: center center;
+}
