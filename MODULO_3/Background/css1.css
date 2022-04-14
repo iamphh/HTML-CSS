@@ -1,0 +1,20 @@
+body{
+    height: 100vh;
+    background-color: rgb(36, 36, 36);
+    background-image: url(images/wallpaper002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*Cover, Contain and Auto*/
+}
+main{
+    width: 400px;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.514);
+}
+h1{
+    text-align: center;
+}
