@@ -13,14 +13,21 @@ body{
     /*Color > Image > Position > Repeat > [Size] > Attachment*/
     background: black url('images/montain.jpg') center center no-repeat fixed;
     background-size: cover;
+    position: relative;
 }
 main{
     width: 400px;
     background-color: aliceblue;
     padding: 10px;
-    margin: auto;
     border-radius: 10px;
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.514);
+    margin: auto;
+/*
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50% -50%);
+    */
 
 }
 h1{
