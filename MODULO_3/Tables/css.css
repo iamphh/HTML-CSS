@@ -33,3 +33,7 @@ table.two{
 td.num{
     text-align: right;
 }
+caption:hover{
+    color: aqua;
+    font-weight: bold;
+}
