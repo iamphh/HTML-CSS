@@ -14,6 +14,7 @@ html, body{
     min-height: 100vh;
     background-color: var(--colorp);
     color: aliceblue;
+    text-align: center;
 }
 header{
     color: white;
@@ -43,11 +44,6 @@ section{
     padding-left: 30px;
     font-size: 3.0vw;
 }
-section.image{
-    background-color: rgba(36, 36, 36, 0.404);
-    width: 400px;
-    border-radius: 10px;
-}
 a:hover{
     color: var(--colorp);
     background-color: var(--colorpy);
@@ -58,8 +54,29 @@ section.normal{
     background-color: white;
     color: var(--colorp);
 }
+section.image > p{
+    display: inline-block;
+    width: 410px;
+    background-color: rgba(255, 255, 255, 0.918);
+    border-radius: 5px;
+    padding: 6px;
+    color: var(--colorp);
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.582);
+}
 section.image{
     color: aliceblue;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.555);
+    background-attachment: fixed;
+    background-size: cover;
+}
+section#img01{
+    background-image: url(images/forest.jpg);
+    background-position: center center;
+}
+section#img02{
+    background-image: url(images/mountain.jpg);
+    background-position: center center;
+
 }
 footer a{
     color: var(--colorp);
