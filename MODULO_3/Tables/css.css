@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(37, 37, 37);
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+table{
+    color: aliceblue;
+    border-collapse: separate;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    margin: auto;
+}
+td{
+    border: 1px solid white;
+    padding: 8px;
+}
+td:hover{
+    background-color: aquamarine;
+    color: rgb(39, 39, 39);
+    transition-duration: .3s;
+}
