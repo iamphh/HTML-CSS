@@ -20,12 +20,12 @@ header{
     text-align: center;
     padding: 20px;
     font-family: var(--fonth);
-    font-size: 20px;
+    font-size: 4vw;
 }
 header > p{
     padding: 50;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 10px;
+    font-size: 12px;
 }
 header a{
     text-decoration: none;
@@ -41,6 +41,7 @@ section{
     padding-bottom: 10vh;
     line-height: 1.5em;
     padding-left: 30px;
+    font-size: 3.0vw;
 }
 section.image{
     background-color: rgba(36, 36, 36, 0.404);
