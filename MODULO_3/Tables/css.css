@@ -5,7 +5,7 @@ h1{
     color: aliceblue;
     text-align: center;
 }
-table{
+table.one{
     color: aliceblue;
     border-collapse: separate;
     width: 350px;
@@ -13,12 +13,23 @@ table{
     text-align: center;
     margin: auto;
 }
-td{
+td, th{
     border: 1px solid white;
     padding: 8px;
 }
 td:hover{
-    background-color: aquamarine;
+    background-color: rgb(127, 255, 212);
     color: rgb(39, 39, 39);
     transition-duration: .3s;
+}
+table.two{
+    color: aliceblue;
+    border-collapse: separate;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+}
+td.num{
+    text-align: right;
 }
