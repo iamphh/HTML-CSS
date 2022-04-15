@@ -1,3 +1,76 @@
-body{
-    background-color: rgb(36, 36, 36);
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@100&display=swap');
+
+:root{
+    --colorp: rgb(36, 36, 36);
+    --colorpy: rgb(233, 233, 47);
+    --fonth: 'Bebas Neue', cursive
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    min-height: 100vh;
+    background-color: var(--colorp);
+    color: aliceblue;
+}
+header{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: var(--fonth);
+    font-size: 20px;
+}
+header > p{
+    padding: 50;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+header a{
+    text-decoration: none;
+    color: aliceblue;
+    transition-duration: .2s;
+}
+body > h1{
+    font-family: var(--fonth);
+    text-align: center;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 1.5em;
+    padding-left: 30px;
+}
+section.image{
+    background-color: rgba(36, 36, 36, 0.404);
+    width: 400px;
+    border-radius: 10px;
+}
+a:hover{
+    color: var(--colorp);
+    background-color: var(--colorpy);
+    padding: 3px;
+    border-radius: 5px;
+}
+section.normal{
+    background-color: white;
+    color: var(--colorp);
+}
+section.image{
+    color: aliceblue;
+}
+footer a{
+    color: var(--colorp);
+    text-decoration: none;
+    transition-duration: .2s;
+}
+footer{
+    color: var(--colorp);
+    background-color: aliceblue;
+    padding: 3.5px;
+    color: var(--colorp);
+    margin: auto;
+    width: 170px;
+    border-radius: 5px;
 }
