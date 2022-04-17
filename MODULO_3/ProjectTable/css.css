@@ -24,3 +24,6 @@ th:hover{
     color: rgb(37, 37, 37);
     transition-duration: .4s;
 }
+div.container{
+    overflow-x: auto;
+}
