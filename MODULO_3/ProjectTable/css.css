@@ -2,7 +2,20 @@ body{
     background-color: rgb(37, 37, 37);
     color: white;
 }
+table{
+    margin: auto;
+}
 
-thead > th, td{
+th{
+    border-collapse: collapse;
     border: 1px solid white;
+    width: 300px;
+}
+td{
+    border: 1px solid white;
+    padding: 8px;
+}
+caption{
+    font-size: 25px;
+    font-weight: bold;
 }
